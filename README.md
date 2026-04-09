@@ -20,24 +20,24 @@ vue3-basic-template/
 
 ### 📦 기본 vue 플러그인 및 라이브러리
 
-|        주요 대상        |              샘플 프로젝트               |       폴더명        |         상세 설명 포스팅          | 링크 |
-| :---------------------: | :--------------------------------------: | :-----------------: | :-------------------------------: | :--: |
-|       vue-router        | <input type="checkbox" checked disabled> | 01_basic_vue-router | <input type="checkbox"  disabled> |      |
-|          pinia          |    <input type="checkbox"  disabled>     |                     | <input type="checkbox"  disabled> |      |
-|          axios          |    <input type="checkbox"  disabled>     |                     | <input type="checkbox"  disabled> |      |
-|         VueUse          |    <input type="checkbox"  disabled>     |                     | <input type="checkbox"  disabled> |      |
-| tanStackQuery(VueQuery) |    <input type="checkbox"  disabled>     |                     | <input type="checkbox"  disabled> |      |
-|       veeValidate       |    <input type="checkbox"  disabled>     |                     | <input type="checkbox"  disabled> |      |
-|          vite           |    <input type="checkbox"  disabled>     |                     | <input type="checkbox"  disabled> |      |
-|         webpack         |    <input type="checkbox"  disabled>     |                     | <input type="checkbox"  disabled> |      |
-|       typescript        |    <input type="checkbox"  disabled>     |                     | <input type="checkbox"  disabled> |      |
-|         eslint          |    <input type="checkbox"  disabled>     |                     | <input type="checkbox"  disabled> |      |
-|        prettier         |    <input type="checkbox"  disabled>     |                     | <input type="checkbox"  disabled> |      |
-|         vuetify         |    <input type="checkbox"  disabled>     |                     | <input type="checkbox"  disabled> |      |
-|     ant-design-vue      |    <input type="checkbox"  disabled>     |                     | <input type="checkbox"  disabled> |      |
-|         element         |    <input type="checkbox"  disabled>     |                     | <input type="checkbox"  disabled> |      |
-|        prime vue        |    <input type="checkbox"  disabled>     |                     | <input type="checkbox"  disabled> |      |
-|      tailwind CSS       |    <input type="checkbox"  disabled>     |                     | <input type="checkbox"  disabled> |      |
-|      font awesome       |    <input type="checkbox"  disabled>     |                     | <input type="checkbox"  disabled> |      |
-|         vitest          |    <input type="checkbox"  disabled>     |                     | <input type="checkbox"  disabled> |      |
-|           msw           |    <input type="checkbox"  disabled>     |                     | <input type="checkbox"  disabled> |      |
+|        주요 대상        | 샘플 프로젝트 |       폴더명        | 상세 설명 포스팅 | 링크 |
+| :---------------------: | :-----------: | :-----------------: | :--------------: | :--: |
+|       vue-router        |      ✅       | 01_basic_vue-router |                  |      |
+|          pinia          |               |                     |                  |      |
+|          axios          |               |                     |                  |      |
+|         VueUse          |               |                     |                  |      |
+| tanStackQuery(VueQuery) |               |                     |                  |      |
+|       veeValidate       |               |                     |                  |      |
+|          vite           |               |                     |                  |      |
+|         webpack         |               |                     |                  |      |
+|       typescript        |               |                     |                  |      |
+|         eslint          |               |                     |                  |      |
+|        prettier         |               |                     |                  |      |
+|         vuetify         |               |                     |                  |      |
+|     ant-design-vue      |               |                     |                  |      |
+|         element         |               |                     |                  |      |
+|        prime vue        |               |                     |                  |      |
+|      tailwind CSS       |               |                     |                  |      |
+|      font awesome       |               |                     |                  |      |
+|         vitest          |               |                     |                  |      |
+|           msw           |               |                     |                  |      |
