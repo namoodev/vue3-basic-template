@@ -33,7 +33,9 @@ vue3-basic-template/
 |       typescript        |               |                     |                  |      |
 |         eslint          |               |                     |                  |      |
 |        prettier         |               |                     |                  |      |
+|         quasar          |               |                     |                  |      |
 |         vuetify         |               |                     |                  |      |
+|   bootstrap(랩퍼포함)   |               |                     |                  |      |
 |     ant-design-vue      |               |                     |                  |      |
 |         element         |               |                     |                  |      |
 |        prime vue        |               |                     |                  |      |
@@ -41,3 +43,10 @@ vue3-basic-template/
 |      font awesome       |               |                     |                  |      |
 |         vitest          |               |                     |                  |      |
 |           msw           |               |                     |                  |      |
+|         leaflet         |               |                     |                  |      |
+|           d3            |               |                     |                  |      |
+|         chartjs         |               |                     |                  |      |
+|           d3            |               |                     |                  |      |
+|         lodash          |               |                     |                  |      |
+|        jsencrypt        |               |                     |                  |      |
+|          sass           |               |                     |                  |      |
