@@ -20,24 +20,24 @@ vue3-basic-template/
 
 ### 📦 기본 vue 플러그인 및 라이브러리
 
-| 주요 대상               | 샘플 프로젝트 | 폴더명              | 상세 설명 포스팅 | 링크 |
-| ----------------------- | ------------- | ------------------- | ---------------- | ---- |
-| vue-router              | [X]           | 01_basic_vue-router | [ ]              |      |
-| pinia                   | [ ]           |                     | [ ]              |      |
-| axios                   | [ ]           |                     | [ ]              |      |
-| VueUse                  | [ ]           |                     | [ ]              |      |
-| tanStackQuery(VueQuery) | [ ]           |                     | [ ]              |      |
-| veeValidate             | [ ]           |                     | [ ]              |      |
-| vite                    | [ ]           |                     | [ ]              |      |
-| webpack                 | [ ]           |                     | [ ]              |      |
-| typescript              | [ ]           |                     | [ ]              |      |
-| eslint                  | [ ]           |                     | [ ]              |      |
-| prettier                | [ ]           |                     | [ ]              |      |
-| vuetify                 | [ ]           |                     | [ ]              |      |
-| ant-design-vue          | [ ]           |                     | [ ]              |      |
-| element                 | [ ]           |                     | [ ]              |      |
-| prime vue               | [ ]           |                     | [ ]              |      |
-| tailwind CSS            | [ ]           |                     | [ ]              |      |
-| font awesome            | [ ]           |                     | [ ]              |      |
-| vitest                  | [ ]           |                     | [ ]              |      |
-| msw                     | [ ]           |                     | [ ]              |      |
+|        주요 대상        | 샘플 프로젝트 |       폴더명        | 상세 설명 포스팅 | 링크 |
+| :---------------------: | :-----------: | :-----------------: | :--------------: | :--: |
+|       vue-router        |     - [X]     | 01_basic_vue-router |       [ ]        |      |
+|          pinia          |     - [ ]     |                     |       [ ]        |      |
+|          axios          |     - [ ]     |                     |       [ ]        |      |
+|         VueUse          |     - [ ]     |                     |       [ ]        |      |
+| tanStackQuery(VueQuery) |      [ ]      |                     |       [ ]        |      |
+|       veeValidate       |      [ ]      |                     |       [ ]        |      |
+|          vite           |      [ ]      |                     |       [ ]        |      |
+|         webpack         |      [ ]      |                     |       [ ]        |      |
+|       typescript        |      [ ]      |                     |       [ ]        |      |
+|         eslint          |      [ ]      |                     |       [ ]        |      |
+|        prettier         |      [ ]      |                     |       [ ]        |      |
+|         vuetify         |      [ ]      |                     |       [ ]        |      |
+|     ant-design-vue      |      [ ]      |                     |       [ ]        |      |
+|         element         |      [ ]      |                     |       [ ]        |      |
+|        prime vue        |      [ ]      |                     |       [ ]        |      |
+|      tailwind CSS       |      [ ]      |                     |       [ ]        |      |
+|      font awesome       |      [ ]      |                     |       [ ]        |      |
+|         vitest          |      [ ]      |                     |       [ ]        |      |
+|           msw           |      [ ]      |                     |       [ ]        |      |
