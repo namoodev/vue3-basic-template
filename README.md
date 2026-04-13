@@ -22,10 +22,11 @@ vue3-basic-template/
 
 |        주요 대상        | 샘플 프로젝트 |       폴더명        | 상세 설명 포스팅 | 링크 |
 | :---------------------: | :-----------: | :-----------------: | :--------------: | :--: |
-|       vue-router        |      ✅       | 01_basic_vue-router |                  |      |
-|          pinia          |               |                     |                  |      |
-|          axios          |               |                     |                  |      |
-|         VueUse          |               |                     |                  |      |
+|       vue-router        |      ✅       | basic_02_vue-router |                  |      |
+|          pinia          |      ✅       |   basic_03_pinia    |                  |      |
+|          axios          |      ✅       |   basic_04_axios    |                  |      |
+|       composable        |      ✅       | basic_05_composable |                  |      |
+|         VueUse          |      ✅       |  plugin_01_vueuse   |                  |      |
 | tanStackQuery(VueQuery) |               |                     |                  |      |
 |       veeValidate       |               |                     |                  |      |
 |          vite           |               |                     |                  |      |
@@ -50,3 +51,4 @@ vue3-basic-template/
 |         lodash          |               |                     |                  |      |
 |        jsencrypt        |               |                     |                  |      |
 |          sass           |               |                     |                  |      |
+|          nuxt           |               |                     |                  |      |
