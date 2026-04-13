@@ -8,6 +8,9 @@ interface TestObj {
 
 // option api 방식
 export const useTestStore = defineStore("test", {
+  // 새로고침으로 데이터 날아가는거 막기
+  persist: true,
+
   state: (): TestObj => {
     return {
       test: "테스트 스토어에 등록된 값",
