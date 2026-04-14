@@ -1,0 +1,3 @@
+<template>
+    metadata
+</template>

@@ -2,7 +2,7 @@
 
 > 이 프로젝트는 vue에 입문하는 입문자들을 위한 샘플 및 가이드 프로젝트입니다. 하나의 프로젝트에 모든 가이드를 작성하는 것 보다, 개별 프로젝트로 생성하는 것이 보다 더 가독성이 있을 것 같아 개별 프로젝트로 진행합니다.
 
-> 서로 영향을 주고받는 라이브러리 혹은 라이브러리 응용을 통한 다른 코딩 스타일 역시 가이드에 녹여낼 예정입니다.
+---
 
 ## 프로젝트 요약 설명
 
@@ -33,15 +33,15 @@ vue3-basic-template/
 
 ### 📦 기본 라이브러리 `basics/`
 
-| 주요 대상  | 샘플 프로젝트 |    폴더명     | 상세 설명 포스팅 | 링크 |
-| :--------: | :-----------: | :-----------: | :--------------: | :--: |
-| vue-router |      ✅       | 02_vue-router |                  |      |
-|   pinia    |      ✅       |   03_pinia    |                  |      |
-|   axios    |      ✅       |   04_axios    |                  |      |
-| composable |      ✅       | 05_composable |                  |      |
-| typescript |               |               |                  |      |
+|                       주요 대상                        | 샘플 프로젝트 |    폴더명     | 상세 설명 포스팅 | 링크 |
+| :----------------------------------------------------: | :-----------: | :-----------: | :--------------: | :--: |
+| [vue-router](https://www.npmjs.com/package/vue-router) |      ✅       | 02_vue-router |                  |      |
+|      [pinia](https://www.npmjs.com/package/pinia)      |      ✅       |   03_pinia    |                  |      |
+|      [axios](https://www.npmjs.com/package/axios)      |      ✅       |   04_axios    |                  |      |
+|                       composable                       |      ✅       | 05_composable |                  |      |
+| [typescript](https://www.npmjs.com/package/typescript) |               |               |                  |      |
 
-### 🎨 디자인 프레임워크 `designs/`
+### 🎨 디자인 프레임워크 및 도구 `designs/`
 
 |      주요 대상      | 샘플 프로젝트 | 폴더명 | 상세 설명 포스팅 | 링크 |
 | :-----------------: | :-----------: | :----: | :--------------: | :--: |
@@ -54,22 +54,22 @@ vue3-basic-template/
 
 ### 🛠️ 유틸리티 툴 `utils/`
 
-|        주요 대상        | 샘플 프로젝트 |  폴더명   | 상세 설명 포스팅 | 링크 |
-| :---------------------: | :-----------: | :-------: | :--------------: | :--: |
-|         VueUse          |      ✅       | 01_vueuse |                  |      |
-| tanStackQuery(VueQuery) |               |           |                  |      |
-|       veeValidate       |               |           |                  |      |
-|         eslint          |               |           |                  |      |
-|        prettier         |               |           |                  |      |
-|         lodash          |               |           |                  |      |
-|        jsencrypt        |               |           |                  |      |
-|     vue-cilpboard3      |               |           |                  |      |
-|          dayjs          |               |           |                  |      |
-|        momentjs         |               |           |                  |      |
-|         introjs         |               |           |                  |      |
-|      vuedraggable       |               |           |                  |      |
-|        vue-i18n         |               |           |                  |      |
-|       vue-macros        |               |           |                  |      |
+|                      주요 대상                       | 샘플 프로젝트 |  폴더명   | 상세 설명 포스팅 | 링크 |
+| :--------------------------------------------------: | :-----------: | :-------: | :--------------: | :--: |
+| [VueUse](https://www.npmjs.com/package/@vueuse/core) |      ✅       | 01_vueuse |                  |      |
+|               tanStackQuery(VueQuery)                |               |           |                  |      |
+|                     veeValidate                      |               |           |                  |      |
+|                        eslint                        |               |           |                  |      |
+|                       prettier                       |               |           |                  |      |
+|                        lodash                        |               |           |                  |      |
+|                      jsencrypt                       |               |           |                  |      |
+|                    vue-cilpboard3                    |               |           |                  |      |
+|                        dayjs                         |               |           |                  |      |
+|                       momentjs                       |               |           |                  |      |
+|                       introjs                        |               |           |                  |      |
+|                     vuedraggable                     |               |           |                  |      |
+|                       vue-i18n                       |               |           |                  |      |
+|                      vue-macros                      |               |           |                  |      |
 
 ### 📈 그래프 전용 `graphs/`
 
@@ -118,6 +118,7 @@ vue3-basic-template/
 | 주요 대상 | 샘플 프로젝트 | 폴더명 | 상세 설명 포스팅 | 링크 |
 | :-------: | :-----------: | :----: | :--------------: | :--: |
 |   nuxt    |               |        |                  |      |
+| electron  |               |        |                  |      |
 
 ### 🧪 테스트 도구 `tests/`
 

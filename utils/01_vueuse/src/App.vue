@@ -1,71 +1,26 @@
 <template>
-<div>
- useMouse() 사용 : {{ x }}, {{ y }}
-</div>
-<div>
-  플러그인 없이 코드 개발: {{ oldX }}, {{ oldY }}
-</div>
-
-<h3>스크립트 코드</h3>
-<pre class="code-block">
-<code>
-import { useMouse } from '@vueuse/core';
-import { ref, onMounted, onUnmounted } from 'vue';
-
-// vueuse 플러그인을 사용하여 코드 단순화 및 vue 사이클에 맞게 쉽고 빠르게 사용 가능
-// 아래 코드를 한줄로 사용할 수 있다. (메모리 누수까지 모두 알아서 관리)
-const { x, y } = useMouse()
-
-/**
- * vueuse 플러그인 없이 개발할 때 코드
- * ---여기서부터
- */
-const oldX = ref(0)
-const oldY = ref(0)
-onMounted(() => {
-  window.addEventListener('mousemove', updateMousePosition)
-})
-
-// 플러그인 없이 window 이벤트를 생성하면, 메모리 누수 방지를 위해 이벤트를 삭제해야한다.
-onUnmounted(() => {
-  window.removeEventListener('mousemove', updateMousePosition)
-})
-const updateMousePosition = (event) => {
-  oldX.value = event.x
-  oldY.value = event.y
-}
-/** ---여기까지 */
-</code>
-</pre>
+  <h1>코어 샘플</h1>
+  <CoreSample></CoreSample>
+  <hr />
+  <h1>컴포넌트 샘플</h1>
+<ComponentsSample></ComponentsSample>
+<hr />
+<h1>수학 샘플</h1>
+<MathSample></MathSample>
+<hr />
+<h1>메타데이터 샘플</h1>
+<MetadataSample></MetadataSample>
+<hr />
+<h1>통합 샘플</h1>
+<IntegrationsSample></IntegrationsSample>
 </template>
 
 <script setup>
-import { useMouse } from '@vueuse/core';
-import { ref, onMounted, onUnmounted } from 'vue';
-
-// vueuse 플러그인을 사용하여 코드 단순화 및 vue 사이클에 맞게 쉽고 빠르게 사용 가능
-// 아래 코드를 한줄로 사용할 수 있다. (메모리 누수까지 모두 알아서 관리)
-const { x, y } = useMouse()
-
-/**
- * vueuse 플러그인 없이 개발할 때 코드
- * ---여기서부터
- */
-const oldX = ref(0)
-const oldY = ref(0)
-onMounted(() => {
-  window.addEventListener('mousemove', updateMousePosition)
-})
-
-// 플러그인 없이 window 이벤트를 생성하면, 메모리 누수 방지를 위해 이벤트를 삭제해야한다.
-onUnmounted(() => {
-  window.removeEventListener('mousemove', updateMousePosition)
-})
-const updateMousePosition = (event) => {
-  oldX.value = event.x
-  oldY.value = event.y
-}
-/** ---여기까지 */
+import ComponentsSample from './components/ComponentsSample.vue';
+import CoreSample from './components/CoreSample.vue';
+import MathSample from './components/MathSample.vue';
+import MetadataSample from './components/MetadataSample.vue';
+import IntegrationsSample from './components/IntegrationsSample.vue';
 </script>
 
 <style>
