@@ -9,8 +9,7 @@
 ```plaintext
 vue3-basic-template/
 ├── README.md                # 전체 학습 로드맵 및 요약
-
-
+├── complete_basic           # basics 폴더 내 모든 라이브러리를 하나의 프로젝트로 생성
 ├── basics/                  # 기본 개념 및 도구 이해
 │   ├── 01_init              # 프로젝트 초기화
 │   ├── 02_vue-router        # vue-router (라우팅)
